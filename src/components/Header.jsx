@@ -1,5 +1,3 @@
-import PropTypes from "prop-types"
-
 function Header({ text }) {
 	return (
 		<header>
@@ -12,10 +10,8 @@ function Header({ text }) {
 
 Header.defaultProps = {
 	text: "Feedback UI",
-}
-
-Header.propTypes = {
-	text: PropTypes.string,
+	bgColor: "rgba(0, 0, 0, 0.4)",
+	textColor: "#ff6a95",
 }
 
 export default Header
